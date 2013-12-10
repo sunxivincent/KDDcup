@@ -1,0 +1,52 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 5 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     trainweka-weka.filters.unsupervised.attribute.Remove-R71-78-weka.filters.unsupervised.attribute.Remove-R61-70-weka.filters.unsupervised.attribute.Remove-R51-60-weka.filters.unsupervised.attribute.Remove-R41-50-weka.filters.unsupervised.attribute.Remove-R31-40-weka.filters.unsupervised.attribute.Remove-R21-30-weka.filters.unsupervised.attribute.Remove-R11-20
+Instances:    50000
+Attributes:   11
+              f1
+              f2
+              f3
+              f4
+              f5
+              f6
+              f7
+              f8
+              f9
+              f10
+              class
+Test mode:5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 5 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       32778               65.556  %
+Incorrectly Classified Instances     17222               34.444  %
+Kappa statistic                          0.3111
+Mean absolute error                      0.3796
+Root mean squared error                  0.4748
+Relative absolute error                 75.9134 %
+Root relative squared error             94.9599 %
+Total Number of Instances            50000     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.661     0.35       0.656     0.661     0.659      0.719    0
+                 0.65      0.339      0.655     0.65      0.652      0.719    1
+Weighted Avg.    0.656     0.345      0.656     0.656     0.656      0.719
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 16621  8518 |     a = 0
+  8704 16157 |     b = 1
+

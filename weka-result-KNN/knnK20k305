@@ -1,0 +1,62 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 305 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     trainweka-weka.filters.unsupervised.attribute.Remove-R71-78-weka.filters.unsupervised.attribute.Remove-R61-70-weka.filters.unsupervised.attribute.Remove-R51-60-weka.filters.unsupervised.attribute.Remove-R41-50-weka.filters.unsupervised.attribute.Remove-R31-40-weka.filters.unsupervised.attribute.Remove-R21-30
+Instances:    50000
+Attributes:   21
+              f1
+              f2
+              f3
+              f4
+              f5
+              f6
+              f7
+              f8
+              f9
+              f10
+              f11
+              f12
+              f13
+              f14
+              f15
+              f16
+              f17
+              f18
+              f19
+              f20
+              class
+Test mode:5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 305 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       34754               69.508  %
+Incorrectly Classified Instances     15246               30.492  %
+Kappa statistic                          0.3901
+Mean absolute error                      0.4082
+Root mean squared error                  0.4413
+Relative absolute error                 81.6326 %
+Root relative squared error             88.2607 %
+Total Number of Instances            50000     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.699     0.309      0.696     0.699     0.697      0.775    0
+                 0.691     0.301      0.694     0.691     0.693      0.775    1
+Weighted Avg.    0.695     0.305      0.695     0.695     0.695      0.775
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 17572  7567 |     a = 0
+  7679 17182 |     b = 1
+

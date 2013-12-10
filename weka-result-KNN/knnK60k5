@@ -1,0 +1,102 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 5 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     trainweka-weka.filters.unsupervised.attribute.Remove-R71-78-weka.filters.unsupervised.attribute.Remove-R61-70
+Instances:    50000
+Attributes:   61
+              f1
+              f2
+              f3
+              f4
+              f5
+              f6
+              f7
+              f8
+              f9
+              f10
+              f11
+              f12
+              f13
+              f14
+              f15
+              f16
+              f17
+              f18
+              f19
+              f20
+              f21
+              f22
+              f23
+              f24
+              f25
+              f26
+              f27
+              f28
+              f29
+              f30
+              f31
+              f32
+              f33
+              f34
+              f35
+              f36
+              f37
+              f38
+              f39
+              f40
+              f41
+              f42
+              f43
+              f44
+              f45
+              f46
+              f47
+              f48
+              f49
+              f50
+              f51
+              f52
+              f53
+              f54
+              f55
+              f56
+              f57
+              f58
+              f59
+              f60
+              class
+Test mode:5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 5 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       33637               67.274  %
+Incorrectly Classified Instances     16363               32.726  %
+Kappa statistic                          0.3454
+Mean absolute error                      0.3648
+Root mean squared error                  0.4651
+Relative absolute error                 72.9567 %
+Root relative squared error             93.0245 %
+Total Number of Instances            50000     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.679     0.333      0.673     0.679     0.676      0.74     0
+                 0.667     0.321      0.672     0.667     0.67       0.74     1
+Weighted Avg.    0.673     0.327      0.673     0.673     0.673      0.74 
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 17057  8082 |     a = 0
+  8281 16580 |     b = 1
+
