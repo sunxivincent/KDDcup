@@ -1,0 +1,9 @@
+=== 5-fold Cross-validation ===
+Correctly Classified Instances       35011               70.022  %
+Incorrectly Classified Instances     14989               29.978  %
+Kappa statistic                          0.3997
+Mean absolute error                      0.3485
+Root mean squared error                  0.4352
+Relative absolute error                 69.7106 %
+Root relative squared error             87.0316 %
+Total Number of Instances            50000     
